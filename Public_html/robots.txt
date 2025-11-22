@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+# جلوگیری از ایندکس صفحه‌های بی‌ارزش
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /cart/
+Disallow: /my-account/
+Disallow: /checkout/
+Disallow: /add-to-cart/
+Disallow: /wp-json/
+
+# جلوگیری از ایندکس فایل‌های سیستمی
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Disallow: /license.txt
+
+# جلوگیری از crawl غیرضروری
+Disallow: /?s=
+Disallow: *?add-to-cart=*
+
+# دسترسی کامل به محتواهای مهم
+Allow: /wp-content/uploads/
+
+# نقشه سایت
+Sitemap: https://atourcenter.ir/sitemap_index.xml
