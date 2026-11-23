@@ -191,3 +191,7 @@ Content:             "t_AOjTVas8RhIQWzVa3wOsS10_6ZONP2YW9cFO9uZxI"
  Q: Quit
 
  Please choose from the menu:
+
+
+
+cat crt.pem chain-only.pem > fullchain.pem
